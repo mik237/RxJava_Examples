@@ -23,7 +23,9 @@ class MainActivity : AppCompatActivity() {
         //repeatOperator()
         //intervalOperator1sec()
         //intervalOperator2sec()
-        intervalOperator()
+        //intervalOperator()
+        //timerOperator()
+        createOperator()
     }
 
     private fun justOperatorExample() {
