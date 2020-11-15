@@ -25,7 +25,13 @@ class MainActivity : AppCompatActivity() {
         //intervalOperator2sec()
         //intervalOperator()
         //timerOperator()
-        createOperator()
+        //createOperator()
+        //filterOperator()
+        //lastOperator()
+        //distinctOperator()
+        //skipOperator()
+        bufferOperator()
+        //mapOperator()
     }
 
     private fun justOperatorExample() {
