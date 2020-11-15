@@ -9,7 +9,8 @@ import java.util.concurrent.TimeUnit
 
 fun intervalOperator1sec(){
     val TAG = "intervalOperator"
-    //run on different thread
+    //run on different thread, start after initialDelay, continuously emiting values,
+    // can stop using takeWhile method having some condition.
     val observable = Observable.interval(3, 1, TimeUnit.SECONDS).takeWhile {
         it <= 15 //will stop when condition is met
     }
