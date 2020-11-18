@@ -1,6 +1,7 @@
 package com.abroliza.rxjava_examples.operators
 
 import android.util.Log
+import com.abroliza.rxjava_examples.model.User
 import io.reactivex.rxjava3.core.Observable
 
 
@@ -27,5 +28,3 @@ fun filterOperator(){
         Log.d(TAG, "onComplete")
     })
 }
-
-data class User(val name: String, val age: Int, val id: Int)

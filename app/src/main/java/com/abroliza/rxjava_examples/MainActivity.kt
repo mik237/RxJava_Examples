@@ -30,8 +30,9 @@ class MainActivity : AppCompatActivity() {
         //lastOperator()
         //distinctOperator()
         //skipOperator()
-        bufferOperator()
+        //bufferOperator()
         //mapOperator()
+        flatMapOperator()
     }
 
     private fun justOperatorExample() {

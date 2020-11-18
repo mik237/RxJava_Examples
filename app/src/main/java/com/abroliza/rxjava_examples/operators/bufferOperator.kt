@@ -1,6 +1,7 @@
 package com.abroliza.rxjava_examples.operators
 
 import android.util.Log
+import com.abroliza.rxjava_examples.model.User
 import io.reactivex.rxjava3.core.Observable
 
 private val usersList = listOf(

@@ -2,6 +2,7 @@ package com.abroliza.rxjava_examples.operators
 
 import android.util.Log
 import io.reactivex.rxjava3.core.Observable
+import com.abroliza.rxjava_examples.model.User
 
 private val usersList = listOf(
         User("ibrahim", 30, 12345),
